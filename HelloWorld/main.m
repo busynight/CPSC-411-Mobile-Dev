@@ -13,8 +13,16 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
+        NSLog(@"Type a text");
+        NSFileHandle *input = [NSFileHandle fileHandleWithStandardInput];
+        
+        NSData *inputData = [input availableData];
+        
+        NSString *str = [[NSString alloc] initWithData:inputData encoding:NSUTF8StringEncoding];
+        
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"You Typed: %@", str);
+        
         
     }
     return 0;
