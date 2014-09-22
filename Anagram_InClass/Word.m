@@ -21,7 +21,9 @@
     if(self){
         
         word = aWord;
-        code = [aWord code];
+        
+        NSString *lowerCaseWord = [aWord lowercaseString];
+        code = [lowerCaseWord code];
     }
     return self;
 }
@@ -30,6 +32,11 @@
     
     return [self.code compare:otherWord.code];
     
+}
+
+-(NSString*)description{
+    
+    return [NSString stringWithFormat:@"Word: %@", word];
 }
 
 @end

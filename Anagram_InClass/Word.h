@@ -19,4 +19,6 @@
 -(instancetype) initWithWord:(NSString*) aWord;
 -(NSComparisonResult) compare:(Word*) otherWord;
 
+-(NSString*)description;
+
 @end

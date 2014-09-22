@@ -12,6 +12,8 @@
 		AD4D53E019BE487A0000BA94 /* Anagram_InClass.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD4D53DF19BE487A0000BA94 /* Anagram_InClass.1 */; };
 		AD4D53E819BE48A50000BA94 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4D53E719BE48A50000BA94 /* Word.m */; };
 		AD4D53EB19BE4DCF0000BA94 /* NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4D53EA19BE4DCF0000BA94 /* NSString.m */; };
+		ADC5E67719BFE53E00C1F503 /* NSMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC5E67619BFE53E00C1F503 /* NSMutableDictionary.m */; };
+		ADC5E69419C008AF00C1F503 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC5E69319C008AF00C1F503 /* Timer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,10 +35,14 @@
 		AD4D53DB19BE487A0000BA94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD4D53DE19BE487A0000BA94 /* Anagram_InClass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Anagram_InClass-Prefix.pch"; sourceTree = "<group>"; };
 		AD4D53DF19BE487A0000BA94 /* Anagram_InClass.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Anagram_InClass.1; sourceTree = "<group>"; };
-		AD4D53E619BE48A50000BA94 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
-		AD4D53E719BE48A50000BA94 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
-		AD4D53E919BE4DCF0000BA94 /* NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
-		AD4D53EA19BE4DCF0000BA94 /* NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString.m; sourceTree = "<group>"; };
+		AD4D53E619BE48A50000BA94 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Word.h; path = ../Word.h; sourceTree = "<group>"; };
+		AD4D53E719BE48A50000BA94 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Word.m; path = ../Word.m; sourceTree = "<group>"; };
+		AD4D53E919BE4DCF0000BA94 /* NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSString.h; path = ../NSString.h; sourceTree = "<group>"; };
+		AD4D53EA19BE4DCF0000BA94 /* NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSString.m; path = ../NSString.m; sourceTree = "<group>"; };
+		ADC5E67519BFE53E00C1F503 /* NSMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableDictionary.h; path = ../NSMutableDictionary.h; sourceTree = "<group>"; };
+		ADC5E67619BFE53E00C1F503 /* NSMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableDictionary.m; path = ../NSMutableDictionary.m; sourceTree = "<group>"; };
+		ADC5E69219C008AF00C1F503 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		ADC5E69319C008AF00C1F503 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +60,6 @@
 		AD4D53CC19BE487A0000BA94 = {
 			isa = PBXGroup;
 			children = (
-				AD4D53E619BE48A50000BA94 /* Word.h */,
-				AD4D53E919BE4DCF0000BA94 /* NSString.h */,
-				AD4D53EA19BE4DCF0000BA94 /* NSString.m */,
-				AD4D53E719BE48A50000BA94 /* Word.m */,
 				AD4D53DA19BE487A0000BA94 /* Anagram_InClass */,
 				AD4D53D719BE487A0000BA94 /* Frameworks */,
 				AD4D53D619BE487A0000BA94 /* Products */,
@@ -83,7 +85,15 @@
 		AD4D53DA19BE487A0000BA94 /* Anagram_InClass */ = {
 			isa = PBXGroup;
 			children = (
+				AD4D53E619BE48A50000BA94 /* Word.h */,
+				AD4D53E919BE4DCF0000BA94 /* NSString.h */,
+				ADC5E67519BFE53E00C1F503 /* NSMutableDictionary.h */,
+				ADC5E67619BFE53E00C1F503 /* NSMutableDictionary.m */,
+				AD4D53EA19BE4DCF0000BA94 /* NSString.m */,
+				AD4D53E719BE48A50000BA94 /* Word.m */,
 				AD4D53DB19BE487A0000BA94 /* main.m */,
+				ADC5E69219C008AF00C1F503 /* Timer.h */,
+				ADC5E69319C008AF00C1F503 /* Timer.m */,
 				AD4D53DF19BE487A0000BA94 /* Anagram_InClass.1 */,
 				AD4D53DD19BE487A0000BA94 /* Supporting Files */,
 			);
@@ -149,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC5E69419C008AF00C1F503 /* Timer.m in Sources */,
 				AD4D53DC19BE487A0000BA94 /* main.m in Sources */,
+				ADC5E67719BFE53E00C1F503 /* NSMutableDictionary.m in Sources */,
 				AD4D53EB19BE4DCF0000BA94 /* NSString.m in Sources */,
 				AD4D53E819BE48A50000BA94 /* Word.m in Sources */,
 			);
@@ -265,6 +277,7 @@
 				AD4D53E519BE487A0000BA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
