@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *bmiValue;
 @property (weak, nonatomic) IBOutlet UILabel *length_lbl;
 @property (weak, nonatomic) IBOutlet UILabel *weight_lbl;
+@property (weak, nonatomic) IBOutlet UIImageView *bmiIMG;
 - (IBAction)changingUnits:(id)sender;
 
 @end

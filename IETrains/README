@@ -1,0 +1,20 @@
+@author: Ivan Espinosa
+@date: Dec. 01, 2014
+@email: ivan.eespinosa23@gmail.com
+
+Description:
+
+This app contains four tabs. The first two tabs contain route information for both OCTA and Metrolink. The last two tab display the Map of both OCTA and Metrolink
+
+In the first two tabs it is able to display all of the routes for both metrolink and octa in a table view format.
+When you select a route you can get all of the stops for the specific route again in a table view format. 
+
+When you select your stop you get detail information of that stop and a map view of the stop.
+
+Finally for both the maps, you can zoom in and out both maps.
+
+BUGS:
+
+None that I know of.
+
+

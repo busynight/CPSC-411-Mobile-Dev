@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>95861F96-4B23-4A66-871D-10E08391BFC1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IEFractionalCalculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>00395BD2-E676-4138-BEB7-EC85250D619A</key>
+		<string>https://github.com/busynight/CPSC-411-Mobile-Dev.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IEFractionalCalculator/IEFractionalCalculator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>00395BD2-E676-4138-BEB7-EC85250D619A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/busynight/CPSC-411-Mobile-Dev.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>00395BD2-E676-4138-BEB7-EC85250D619A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>00395BD2-E676-4138-BEB7-EC85250D619A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IPhone</string>
+		</dict>
+	</array>
+</dict>
+</plist>

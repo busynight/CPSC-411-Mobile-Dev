@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD172A7C19D1110C009E403E /* green_check.png in Resources */ = {isa = PBXBuildFile; fileRef = AD172A7A19D1110C009E403E /* green_check.png */; };
+		AD172A7D19D1110C009E403E /* red_cross.png in Resources */ = {isa = PBXBuildFile; fileRef = AD172A7B19D1110C009E403E /* red_cross.png */; };
 		ADED25B519CA2D0F0081C573 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADED25B419CA2D0F0081C573 /* Foundation.framework */; };
 		ADED25B719CA2D0F0081C573 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADED25B619CA2D0F0081C573 /* CoreGraphics.framework */; };
 		ADED25B919CA2D0F0081C573 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADED25B819CA2D0F0081C573 /* UIKit.framework */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD172A7A19D1110C009E403E /* green_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_check.png; sourceTree = "<group>"; };
+		AD172A7B19D1110C009E403E /* red_cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_cross.png; sourceTree = "<group>"; };
 		ADED25B119CA2D0F0081C573 /* BMI_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMI_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADED25B419CA2D0F0081C573 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ADED25B619CA2D0F0081C573 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +124,8 @@
 				ADED25C619CA2D0F0081C573 /* Main_iPhone.storyboard */,
 				ADED25EC19CA47DD0081C573 /* IESubject.h */,
 				ADED25ED19CA47DD0081C573 /* IESubject.m */,
+				AD172A7A19D1110C009E403E /* green_check.png */,
+				AD172A7B19D1110C009E403E /* red_cross.png */,
 				ADED25CC19CA2D0F0081C573 /* IEViewController.h */,
 				ADED25CD19CA2D0F0081C573 /* IEViewController.m */,
 				ADED25CF19CA2D0F0081C573 /* Images.xcassets */,
@@ -234,6 +240,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD172A7C19D1110C009E403E /* green_check.png in Resources */,
+				AD172A7D19D1110C009E403E /* red_cross.png in Resources */,
 				ADED25D019CA2D0F0081C573 /* Images.xcassets in Resources */,
 				ADED25C819CA2D0F0081C573 /* Main_iPhone.storyboard in Resources */,
 				ADED25BF19CA2D0F0081C573 /* InfoPlist.strings in Resources */,

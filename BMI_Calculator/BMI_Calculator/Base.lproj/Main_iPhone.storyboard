@@ -88,10 +88,15 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="clD-d1-P0G">
+                                <rect key="frame" x="177" y="279" width="142" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="bmiIMG" destination="clD-d1-P0G" id="d7L-lf-Rnf"/>
                         <outlet property="bmiValue" destination="PzK-y3-kAD" id="cWr-xH-dKb"/>
                         <outlet property="calculateBtn" destination="5Du-X9-kL8" id="uWI-Tf-W8c"/>
                         <outlet property="lengthTextField" destination="06D-xR-fyl" id="aDg-qZ-JAL"/>

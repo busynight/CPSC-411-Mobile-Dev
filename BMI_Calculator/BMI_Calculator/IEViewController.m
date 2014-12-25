@@ -82,8 +82,21 @@
     }
     _bmiValue.lineBreakMode = NSLineBreakByWordWrapping;
     _bmiValue.numberOfLines = 0;
+    
     //change texture for BMI
     [_bmiValue setText:[subject description]];
+    
+    
+    if(subject.bmi.floatValue <= 35 && subject.bmi.floatValue >= 16){
+        _bmiIMG.image = nil;
+        _bmiIMG.image = [UIImage imageNamed:@"green_check.png"];
+    }
+    else{
+        
+        _bmiIMG.image = nil;
+        _bmiIMG.image = [UIImage imageNamed:@"red_cross.png"];
+        
+    }
     
 }
 
